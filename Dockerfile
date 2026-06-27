@@ -1,4 +1,4 @@
-FROM FROM eclipse-temurin:21-jdk:latest
+FROM FROM eclipse-temurin:21-jdk
 LABEL authors="giuli"
 
 ENTRYPOINT ["top", "-b"]
